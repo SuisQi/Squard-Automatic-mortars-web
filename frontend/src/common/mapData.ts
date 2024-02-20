@@ -130,7 +130,7 @@ export const maps = {
   "harju": {
     "reference": "AAS_v1",
     "minimap_image_src": "maps/harju_minimap.jpg",
-    "heightmap_image_src": "maps/gorodok_heightmap.png",
+    "heightmap_image_src": "maps/harju_heightmap.png",
     "landscape": {
       "loc_x": -201599.359375, "loc_y": -201600.765625,
       "scale_x": 100.0, "scale_y": 100.0, "scale_z": 100.0,
@@ -390,18 +390,20 @@ export const maps = {
     "mapTextureCorner1": {"loc_x": 158000.0, "loc_y": -203000.0},
     "compression": {"z_translate": 0}
 },
-    // "sanxian": {
-    //     "reference": "Skirmish_v1",
-    //     "minimap_image_src": "maps/sanxianislands_minimap.jpg",
-    //     "heightmap_image_src": "maps/sanxian_heightmap.png",
-    //     "landscape": {
-    //         "loc_x": 565450.0, "loc_y": -406400.0 + 762 * 100,
-    //         "scale_x": 100.0, "scale_y": 100.0, "scale_z": 400.0,
-    //         "resolution_x": 6351, "resolution_y": 6351
-    //     },
-    //     "mapTexture": {"size_x": 4096, "size_y": 4096},
-    //     "mapTextureCorner0": {"loc_x": -120000.0, "loc_y": 75000.0},
-    //     "mapTextureCorner1": {"loc_x": 158000.0, "loc_y": -203000.0},
-    //     "compression": {"z_translate": 0}
-    // },
+    "sanxianislands": {
+        "reference": "AAS_v1",
+        "minimap_image_src": "maps/sanxianislands_minimap.jpg",
+        "heightmap_image_src": "maps/sanxian_heightmap.png",
+        "landscape": {
+            "loc_x": -204000,"loc_y": -204000,
+            "scale_x": 100,"scale_y": 100,"scale_z": 100,
+            "resolution_x": 4081,"resolution_y": 4081
+        },
+        "mapTexture": {
+            "size_x": 4096, "size_y": 4096
+        },
+        "mapTextureCorner0": {"loc_x": -230000,"loc_y": -205000},
+        "mapTextureCorner1": {"loc_x": 230000,"loc_y": 255000},
+        "compression": {"z_translate": 0 }
+    },
 }

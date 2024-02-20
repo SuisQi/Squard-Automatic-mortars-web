@@ -11,3 +11,7 @@ export const getState = ()=>{
 export const setMortarRounds = (value:number)=>{
     return axios.get(baseURL+"setMortarRounds?mortarRounds="+value)
 }
+
+export const list_fires = ()=>{
+    return axios.get(baseURL + "listFires")
+}
